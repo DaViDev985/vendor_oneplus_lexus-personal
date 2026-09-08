@@ -1516,7 +1516,6 @@ PRODUCT_PACKAGES += \
     vendor.display.postproc@1.0 \
     vendor.oplus.hardware.camera.aon-service-impl \
     vendor.oplus.hardware.cammidasservice@1.0 \
-    vendor.oplus.hardware.displaycolorfeature-V1-ndk \
     vendor.pixelworks.hardware.display-V2-ndk \
     vendor.pixelworks.hardware.display@1.0_vendor \
     vendor.pixelworks.hardware.display@1.1_vendor \
@@ -1729,7 +1728,6 @@ PRODUCT_PACKAGES += \
     libyuvwrapper \
     libzlib \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
-    vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.pixelworks.hardware.display@1.0 \
     vendor.pixelworks.hardware.display@1.1 \
