@@ -1010,6 +1010,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/odm/vendor/firmware/antdtx.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b07 \
     vendor/oneplus/lexus/proprietary/odm/vendor/firmware/antdtx.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b08 \
     vendor/oneplus/lexus/proprietary/odm/vendor/firmware/antdtx.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.mdt \
+    vendor/oneplus/lexus/proprietary/system_ext/etc/horae/horae_SM8635.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/horae/horae_SM8635.conf \
     vendor/oneplus/lexus/proprietary/vendor/etc/2025-03-17_platform_RSA_SM8635_license_a6f644da-0221-4cb4-ab44-a7d8397b3d13.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/2025-03-17_platform_RSA_SM8635_license_a6f644da-0221-4cb4-ab44-a7d8397b3d13.pfm \
     vendor/oneplus/lexus/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/display/DPU1010.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1010.xml \
@@ -1805,4 +1806,5 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/odm/etc/temperature_profile/sys_thermal_control_config.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_thermal_control_config.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/charger_cool_down.conf:$(TARGET_COPY_OUT_VENDOR)/etc/charger_cool_down.conf \
     vendor/oneplus/lexus/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
